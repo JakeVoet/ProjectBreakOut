@@ -93,7 +93,7 @@ public class GamePanel extends JPanel {
             }
             
             if(balletje.getX() < mouseX + balk.getWidth() && balletje.getX() > mouseX + balk.getWidth() / 2){
-                balletje.setDX(balletje.getDY()+2);
+                balletje.setDX(balletje.getDY()+4);
             }
         }
         
